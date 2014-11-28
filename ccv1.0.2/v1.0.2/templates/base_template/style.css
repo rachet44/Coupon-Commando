@@ -1,0 +1,434 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 25px 0px 25px;
+	background-color: #333333;
+	color: #415005;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+
+a {
+	color: #4e6200;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #6f8c00;
+	background-color: inherit;
+}
+
+span {
+	display: none;
+}
+
+img {
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	margin: 6px 0px 10px;
+	text-align: justify;
+	line-height: 14px;
+}
+
+h1{
+font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:#FFFFFF;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.clearthis {
+	margin : 0px;
+	height : 1px;
+	clear : both;
+	float : none;
+	font-size: 1px;
+	line-height: 0px;
+	overflow : hidden;
+	visibility: hidden;
+}
+
+input {
+	padding: 2px 0px;
+	color: #415005;
+	background-color: #fff;
+	border: #576c04 1px solid;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+#body_wrapper {
+	margin: 0px auto;
+	padding: 3px 0px;
+	width: 800px;
+	background-color: #fff;
+	color: inherit;
+}
+
+#container {
+	margin: 0px 3px;
+	padding: 4px;
+	background-color: #ffffff;
+	color: inherit;
+	text-align: left;
+	border: 2px dashed;
+	border-color: #FFCC33;
+	
+}
+
+.thumbnail {
+	margin: 8px 7px 5px 0px;
+	float: left;
+}
+
+
+/* Page Header */
+
+#page_header {
+	width: 780px;
+	height: 55px;
+	background-color: #2d5229;
+	color: #ffffff;
+	overflow: hidden;
+	padding: 0px;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 11px;
+	background-image:url(images/headerbg.jpg);
+}
+
+#page_header h1 {
+	width: 230px;
+	height: 55px;
+	float: left;
+}
+
+
+/* Member Login */
+
+#member_login {
+	margin: 15px 12px;
+	width: 450px;
+	float: right;
+	font-weight: bold;
+}
+
+#member_login h3 {
+	padding-top: 5px;
+	float: left;
+	font-size: 11px;
+}
+
+#member_login input {
+	margin: 2px 3px 0px 7px;
+	width: 120px;
+	float: left;
+}
+
+#member_login input2 {
+	margin: 2px 3px 0px 7px;
+	width: 120px;
+	float: left;
+}
+
+#member_login input.button {
+	margin: 0px;
+	padding: 0px;
+	width: 23px;
+	height: 21px;
+	color: #9a1904;
+	background: url('images/search_button.gif') #409f37 no-repeat 0% 1px;
+	border: none;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+/* Main Area */
+
+#mainarea {
+	width: 780px;
+}
+
+#mainarea_2 {
+	margin-top: 60px;
+	width: 780px;
+#	color: #FFCC33;
+	color: #000000;
+}
+
+
+/* Navigational Menu */
+
+#navmenu {
+	width: 780px;
+	height: 42px;
+	overflow: hidden;
+}
+
+#navmenu li {
+	float: left;
+	padding-right: 14px;
+	height: 42px;
+	background: url('images/navmenu_background.gif') no-repeat;
+	text-align:center;
+	font: 14px Arial, Helvetica, sans-serif;
+	font-weight:  bold;
+	color: #9a1904;
+}
+
+#navmenu li#active {
+	background: url('images/navmenu_background.gif') no-repeat;
+}
+
+#navmenu li#inactive {
+	background: url('images/navmenu_background_inactive.gif') no-repeat;
+}
+
+#navmenu li a {
+	width: 130px;
+	height: 32px;
+	display: block;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	text-decoration:none;
+	text-align:center;
+	margin-top: 8px;
+	font: 14px Arial, Helvetica, sans-serif;
+	font-weight:  bold;
+	color: #2a2a2a;
+
+}
+
+#navmenu li a:hover {
+	width: 130px;
+	height: 32px;
+	display: block;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	margin-top: 8px;
+	text-align:center;
+	font: 14px Arial, Helvetica, sans-serif;
+	font-weight:  bold;
+	color: #9a1904;
+}
+
+/* Main Content */
+
+#maincontent_1 {
+	padding: 2px;
+}
+
+#maincontent_1 h1 {
+
+	text-align:left;
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #265423;
+	margin-bottom: 40px;
+
+}
+
+#maincontent_2 {
+	padding-top: 5px;
+
+	
+
+}
+
+#maincontent_3 {
+	padding: 0px 18px 10px 23px;
+	text-align: left;
+}
+
+.link_details {
+	font-size: 14px;
+	font-weight: bold;
+	text-align:right;
+	margin: 40px 40px 40px 40px;
+}
+
+
+/* Coupon Users */
+
+#couponusers {
+	width: 350px;
+	height: 287px;
+	float: left;
+	background-image:url(images/featurebox_users.jpg);
+}
+
+#couponusers h2 {
+	height: 17px;
+}
+
+#couponusers p {
+	width: 280px;
+	text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+	margin: 70px 40px 40px 40px;
+}
+
+
+/* Coupon Signup */
+
+#couponsignup {
+	width: 550px;
+	float: left;
+	margin-left: 100px;
+}
+
+#couponsignup h2 {
+	height: 17px;
+}
+
+#couponsignup p {
+	width: 280px;
+	text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+	margin: 70px 40px 40px 40px;
+}
+
+#couponsignup h1 {
+
+	text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+
+}
+
+td.form{
+text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+}
+
+/* Merchant Signup */
+
+#merchantsignup {
+	width: 550px;
+	float: left;
+	margin-left: 100px;
+}
+
+#merchantsignup h2 {
+	height: 17px;
+}
+
+#merchantsignup p {
+	width: 280px;
+	text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+	margin: 70px 40px 40px 40px;
+}
+
+#merchantsignup h1 {
+
+	text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+
+}
+
+td.form{
+text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+}
+
+/* Merchants */
+
+#merchants {
+	float: right;
+	width: 350px;
+	height: 287px;
+	background-image:url(images/featurebox_merchants.jpg);
+}
+
+#merchants h2 {
+	height: 17px;
+}
+
+#merchants p {
+	width: 280px;
+	text-align:left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #9a1904;
+	margin: 70px 40px 40px 40px;
+}
+
+/* Page Footer */
+
+#page_footer {
+	padding: 4px;
+	background-color: #2a2a2a;
+	height: 35px;
+	color: #fff;
+	overflow: hidden;
+	font-weight: bold;
+}
+
+#page_footer a {
+	background-color: #2a2a2a;
+	color: #fff;
+}
+
+#page_footer a:hover {
+	background-color: inherit;
+	color: #FFCC00;
+}
+
+#copyright {
+	margin-top: 3px;
+	float: left;
+	width: 430px;
+	font-size: 10px;
+}
+
+/* Footer Links */
+
+#footer_links {
+	margin-top: 3px;
+	width: 240px;
+	float: right;
+	text-align:right;
+}
+
+#footer_links a {
+	text-decoration: none;
+}
+
+#footer_links li {
+	padding: 4px;
+	float: left;
+}
+
+#footer_links li#last {
+	padding-right: 0px;
+	background: none;
+}
+
+
+

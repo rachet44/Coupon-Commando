@@ -1,0 +1,45 @@
+<pre>
+Coupon Commando V1.0
+
+Requirements:
+-	PHP with support for on the fly image generation is required. See http://us3.php.net/gd for further information on GD support.
+-	Any MySQL version > 3.2.
+
+Installation:
+1.	Download the zip file and unpack it to FTP to your webserver. Upload the files.
+2.	chmod 777 the following directories:
+a.	/temp
+b.	/coupons
+c.	/coupons/images
+d.	/coupons/specials
+3.	Edit your installationdirectory/lib/globals.php with appropriate information
+	Example: http://www.yourdomain.com/lib/globals.php (this is if you put Coupon commado in your root directory. )
+	Example: http://www.yourdomain.com/couponcommando/lib/globals.php (this is if you put couponcommando in a sub directory. )
+
+a.	Insert your dbhost, username, password and db name where the mysql will host coupon commando in the top portion of globals.php
+4.	from the command line: mysql -u <username> -p <db name> < myinstallationdirectory/install/mysql-create-tables.sql or import the .sql from your available 
+environment.
+5.	Place an .htaccess file in the myinstallationdirectory/admin/ folder
+
+www.mysitename.com/merchant/dashboard.php to access the dashboard for merchants
+www.mysitename.com/admin/dashboard.php to access the dashboard for administration
+
+AUTORESPONDERS:
+
+- You will need to edit signup.php if you intend to use an autoresponder on signup.
+
+WATERMARK:
+
+- You must change the URL specified in the watermark code in myinstallationdirectory/lib/watermark.php and change the URL from 
+http://www.google.com/intl/en_ALL/images/logo.gif to an image of your choice.
+
+BONUS:
+
+- A tellafriend module is provided with this package. See myinstallationdirectory/exlib/tellafriend/Readme-PHP.txt for installation guide.
+
+
+TEMPLATES:
+
+- To edit or customize the template used by the site, see the directory myinstallationdirectory/templates/base_template.
+
+</pre>
